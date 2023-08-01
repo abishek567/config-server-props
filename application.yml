@@ -1,3 +1,8 @@
 message: Hello There!
 
 test.ext.prop: config subdirectory of current directory
+
+db.driverclass: com.mysql.cj.jdbc.Driver
+db.url: jdbc:mysql://localhost:3306/scm
+db.username: host
+db.password: Password
