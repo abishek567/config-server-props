@@ -7,4 +7,4 @@ db.url: jdbc:mysql://localhost:3306/scm
 db.username: host
 db.password: Password
 isSecured: newa
-isSecured1: 1
+userService: user-service
