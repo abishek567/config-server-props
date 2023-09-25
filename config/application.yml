@@ -9,3 +9,4 @@ db.password: Password
 isSecured: newa
 userService: user-service
 priceService: price-service
+createPrice: /createPrice
