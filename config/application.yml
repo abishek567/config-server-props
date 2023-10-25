@@ -10,3 +10,7 @@ isSecured: newa
 userService: user-service
 priceService: price-service
 createPrice: /createPrice
+getPrice: /getPrice
+
+productService: product-service
+getProduct: /getProduct
