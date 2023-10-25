@@ -12,5 +12,5 @@ priceService: price-service
 createPrice: /createPrice
 getPrice: /getPrice
 
-productService: product-service
+productService: product-service/product
 getProduct: /getProduct
