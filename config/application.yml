@@ -6,6 +6,13 @@ db.driverclass: com.mysql.cj.jdbc.Driver
 db.url: jdbc:mysql://localhost:3306/scm
 db.username: host
 db.password: Password
+
+
+dbfree.driverclass: com.mysql.cj.jdbc.Driver
+dbfree.url: jdbc:mysql://db4free.net:3306/supplychain
+dbfree.username: dmsscm
+dbfree.password: supplydms
+
 isSecured: newa
 userService: user-service
 priceService: price-service
