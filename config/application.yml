@@ -3,15 +3,13 @@ message: Hello There!
 test.ext.prop: config subdirectory of current directory
 
 db.driverclass: com.mysql.cj.jdbc.Driver
-db.url: jdbc:mysql://localhost:3306/scm
-db.username: host
-db.password: Password
+db1.url: jdbc:mysql://localhost:3306/scm
+db1.username: host
+db1.password: Password
 
-
-dbfree.driverclass: com.mysql.cj.jdbc.Driver
-dbfree.url: jdbc:mysql://db4free.net:3306/supplychain
-dbfree.username: dmsscm
-dbfree.password: supplydms
+db.url: jdbc:mysql://db4free.net:3306/supplychain
+db.username: dmsscm
+db.password: supplydms
 
 isSecured: newa
 userService: user-service
