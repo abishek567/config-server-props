@@ -1,25 +1,42 @@
+# test props - to be cleaned up (in all env props as well)
 message: Hello There!
-
 test.ext.prop: config subdirectory of current directory
+isSecured: newa
 
+# for env db connection (currently Abishek local)
 db.driverclass: com.mysql.cj.jdbc.Driver
 db.url:jdbc:mysql: jdbc:mysql://localhost:3306/scm
 db.username: host
 db.password: Password
 
+# db4free - temp hosted db, TBD if needed long-term
 dbfree.driverclass: com.mysql.cj.jdbc.Driver
 dbfree.url:jdbc:mysql: jdbc:mysql://db4free.net:3306/supplychain
 dbfree.username: dmsscm
 dbfree.password: supplydms
 
-isSecured: newa
+# User Service endipoints
 userService: user-service
+
+# Price Service endpoints
 priceService: price-service
 createPrice: /createPrice
 getPrice: /getPrice
 
+# Product Service endpoints
 productService: product-service/product
 getProduct: /getProduct
 
+# Stock Service endpoints
 stockService: stock-service/stock
 verifyStock: /verifyStock
+
+# RefData Service endpoints
+refDataService: refdata-service
+refDataService.getLocationByGeoCode: /getLocationByGeoCode
+refDataService.validateGeoCodes: /validateGeoCodes
+
+# Customer Service endpoints
+customerService: customer-service
+customerService.getCustomer: /getCustomer
+customerService.validateCustomerIds: /validateCustomerIds
